@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -35,8 +41,7 @@
 
 </head>
 <body>
-     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<div id="fh5co-offcanvas">
+    <div id="fh5co-offcanvas">
     <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
         <span><i class="icon-cross3"></i> <span>Close</span></span>
     </a>
@@ -188,6 +193,12 @@
                 <div class="row">
     <div class="col-md-12 animate-box">
         
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
     </div>
 </div>
 
@@ -283,13 +294,28 @@
 
 
 
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: '9b6d9a20b8aa351e09ee',
+                clientSecret: '5b1f0c0df1c6cd1a7a9500208cf5b06b7fbf9443',
+                repo: 'lx5291172.github.io',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
+
+
+
 
 </body>
-div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: '<7eFD1V6tmbNDuXamOiq7tJoy-gzGzoHsz>',
-            appKey: '<VSP26wBD9kLg0v3nuhiHmPMG>'
-        })
-    </script>
