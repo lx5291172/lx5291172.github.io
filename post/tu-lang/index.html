@@ -319,11 +319,16 @@
 
 
 </body>
-<div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: '<7eFD1V6tmbNDuXamOiq7tJoy-gzGzoHsz>',
-            appKey: '<VSP26wBD9kLg0v3nuhiHmPMG>'
-        })
-    </script>
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+valine:
+  enable: true
+  appid: APP ID # 7eFD1V6tmbNDuXamOiq7tJoy-gzGzoHsz
+  appkey: APP Key # VSP26wBD9kLg0v3nuhiHmPMG
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: (。・∀・)ノ ) # comment box placeholder
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
