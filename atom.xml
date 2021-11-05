@@ -2,13 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lx5291172.github.io/</id>
     <title>我的摄影自留地</title>
-    <updated>2021-11-05T04:59:28.784Z</updated>
+    <updated>2021-11-05T05:06:30.870Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lx5291172.github.io/"/>
     <link rel="self" href="https://lx5291172.github.io/atom.xml"/>
     <logo>https://lx5291172.github.io/images/avatar.png</logo>
     <icon>https://lx5291172.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 我的摄影自留地</rights>
+    <entry>
+        <title type="html"><![CDATA[万圣节（二）]]></title>
+        <id>https://lx5291172.github.io/post/wan-sheng-jie-er/</id>
+        <link href="https://lx5291172.github.io/post/wan-sheng-jie-er/">
+        </link>
+        <updated>2021-11-05T05:04:01.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://lx5291172.github.io//post-images/1636088669793.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088677081.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088682213.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088689537.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088697125.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088704203.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088709574.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088715140.jpg" alt="" loading="lazy"><br>
+<img src="https://lx5291172.github.io//post-images/1636088720171.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[万圣节（一）]]></title>
         <id>https://lx5291172.github.io/post/wan-sheng-jie-yi/</id>
